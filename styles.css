@@ -1,0 +1,68 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #0a0a0a;
+    color: white;
+    font-family: Arial, sans-serif;
+    text-align: center;
+    overflow: hidden;
+}
+
+.container {
+    margin-top: 50px;
+}
+
+#contador {
+    font-size: 1.5em;
+    margin-bottom: 20px;
+}
+
+.foto-container {
+    width: 250px;
+    height: 250px;
+    margin: 20px auto;
+    overflow: hidden;
+    border-radius: 15px;
+    cursor: pointer;
+}
+
+.foto-container img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.mensagem {
+    font-size: 1.2em;
+    padding: 20px;
+}
+
+/* Efeito de corações caindo */
+.heart {
+    position: absolute;
+    color: red;
+    font-size: 24px;
+    animation: fall linear infinite;
+}
+
+@keyframes fall {
+    to {
+        transform: translateY(100vh);
+        opacity: 0;
+    }
+}
+
+/* Estilizando o QR Code */
+.qr-code {
+    margin-top: 20px;
+}
+
+.qr-code img {
+    width: 150px;
+    height: auto;
+    border-radius: 10px;
+}
