@@ -56,13 +56,3 @@ body {
     }
 }
 
-/* Estilizando o QR Code */
-.qr-code {
-    margin-top: 20px;
-}
-
-.qr-code img {
-    width: 150px;
-    height: auto;
-    border-radius: 10px;
-}
